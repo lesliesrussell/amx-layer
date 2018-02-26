@@ -14,9 +14,9 @@ This layer replaces =helm-M-x= by [[https://github.com/nonsequitur/smex][amx]] w
 activated in the Spacemacs layer.
 
 * Install
-To use this configuration layer, add it to your =~/.spacemacs=. You will need to
-add =amx= to the existing =dotspacemacs-configuration-layers= list in this
-file.
+To use this configuration layer, add it to your =~/.spacemacs=. Drop this repo
+into your private layers directory (e.g. ~/.emacs.d/private/). Then add
+=amx-layer= to the existing =dotspacemacs-configuration-layers= list in this file.
 
 * Key bindings
 
@@ -24,8 +24,8 @@ file.
 |-------------+--------------------------------------------|
 | ~SPC :~       | all Emacs commands (interactive functions) |
 | ~SPC m :~     | current major mode commands                |
-| M-x         | all Emacs commands                         |
-| M-X         | current major mode commands                |
+| ~M-x~         | all Emacs commands                         |
+| ~M-X~         | current major mode commands                |
 
 * Conversion notes
 This is a 100% ripoff of the spacemacs smex layer. Changed "smex" to "amx" and added on key binding.

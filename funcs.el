@@ -5,6 +5,8 @@
 ;; Author: Sylvain Benner <sylvain.benner@gmail.com>
 ;; URL: https://github.com/syl20bnr/spacemacs
 ;;
+;; I want credit to remain with the original author because all I did was change "smex" to "amx"
+;;
 ;; This file is not part of GNU Emacs.
 ;;
 ;;; License: GPLv3
