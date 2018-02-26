@@ -1,0 +1,32 @@
+#+TITLE: Amx layer
+
+[[file:img/amx.png]]
+
+* Table of Contents                                         :TOC_4_gh:noexport:
+- [[#description][Description]]
+- [[#install][Install]]
+- [[#key-bindings][Key bindings]]
+- [[#conversion-notes][Conversion notes]]
+
+* Description
+This layer replaces =helm-M-x= by [[https://github.com/nonsequitur/smex][amx]] which is built on top of =ido=.
+=ido= can perform flex matching with the [[https://github.com/lewang/flx][flx-ido]] mode which is already
+activated in the Spacemacs layer.
+
+* Install
+To use this configuration layer, add it to your =~/.spacemacs=. You will need to
+add =amx= to the existing =dotspacemacs-configuration-layers= list in this
+file.
+
+* Key bindings
+
+| Key Binding | Description                                |
+|-------------+--------------------------------------------|
+| ~SPC :~       | all Emacs commands (interactive functions) |
+| ~SPC m :~     | current major mode commands                |
+| M-x         | all Emacs commands                         |
+| M-X         | current major mode commands                |
+
+* Conversion notes
+This is a 100% ripoff of the spacemacs smex layer. Changed "smex" to "amx" and added on key binding.
+I do not like smex because it is not in active development. amx is in active development.
